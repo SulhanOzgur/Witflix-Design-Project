@@ -1,0 +1,284 @@
+body {
+    margin: auto;
+    background-color: white;
+    max-width: 1200px;
+    max-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .all {
+    margin: 0 auto;
+    border: 1px solid black;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 0 10px;
+  }
+  
+  .top-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .main-header a {
+    color: red;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .top-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-box {
+    display: flex;
+    width: 210px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+  }
+  
+  .search-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .search-box button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .search-box button i {
+    font-size: 18px;
+    color: black;
+  }
+  
+  .bell {
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+  }
+  .bell i {
+    color: black;
+  }
+  
+  .profile-ikon {
+    background: none;
+    border: none;
+    padding: 2px;
+  }
+  
+  .profile-ikon a {
+    background: none;
+    border: none;
+    color: gray;
+  }
+  
+  .category {
+    font-weight: bold;
+    color: red;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .imdb-score {
+    font-weight: bolder;
+    margin-right: 3px;
+  }
+  
+  .age {
+    display: inline-flex;
+    border: 1px solid black;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding: 4px 4px;
+  }
+  
+  .time {
+    font-weight: bolder;
+    margin-right: 8px;
+  }
+  
+  .highlight {
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .content {
+    padding: 12px;
+    width: 50%;
+  }
+  
+  .fa-play {
+    color: white;
+  }
+  
+  .highlight .btn {
+    margin-left: 0px;
+  }
+  
+  .btn {
+    display: inline-flex;
+    margin: 12px;
+    background-color: red;
+    border-style: none;
+    border-radius: 5px;
+    padding: 15px;
+    padding-right: 30px;
+    cursor: pointer;
+  }
+  
+  .btn a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: row;
+    gap: 5px; /* Yıldızlar ile yan metin arasında */
+    font-size: 13px;
+  }
+  
+  .middle {
+    margin-top: 20px;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .moovies {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    margin-left: 0;
+  }
+  
+  .moovie {
+    flex: 0 0 auto;
+    min-width: 30%;
+    border: 1px solid black;
+    text-align: start;
+    padding: 10px;
+    padding-left: 0;
+  }
+  
+  .moovie p {
+    font-size: 12px;
+  }
+  
+  .moovie h4 {
+    margin-left: 12px;
+  }
+  
+  footer {
+    margin-top: 30px;
+    font-size: 12px;
+    margin-bottom: 70px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+    font-size: 12px;
+  }
+  
+  .f-text {
+    font-weight: bold;
+  }
+  
+  .f-paraghraph {
+    color: black;
+    font-size: 12px;
+  }
+  
+  .f-left {
+    width: 60%;
+    padding-left: 0;
+  }
+  
+  .f-right {
+    width: 34%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .follow {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fa-facebook {
+    color: #1877f2;
+  }
+  
+  .fa-twitter {
+    color: #1da1f2;
+  }
+  
+  .fa-youtube {
+    color: #ff0000;
+  }
+  
+  .social-ikons {
+    padding: 2px;
+  }
+  
+  .app-buttons img {
+    width: 100px;
+  }
+  
+  .apps {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bottom-design {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  
+  
