@@ -1,18 +1,14 @@
 body {
     margin: auto;
     background-color: white;
-    max-width: 1200px;
-    max-height: 100%;
     font-family: Arial, Helvetica, sans-serif;
   }
   
   .all {
     margin: 0 auto;
-    border: 1px solid black;
-    min-height: 100vh;
     box-sizing: border-box;
     background-color: white;
-    padding: 0 10px;
+    padding: 0 15px;
   }
   
   .top-text {
@@ -98,6 +94,11 @@ body {
     border: none;
     color: gray;
   }
+
+  .big-header {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
   
   .category {
     font-weight: bold;
@@ -119,7 +120,7 @@ body {
     border: 1px solid black;
     margin-right: 12px;
     margin-left: 12px;
-    padding: 4px 4px;
+    padding: 2px 4px;
   }
   
   .time {
@@ -131,6 +132,7 @@ body {
     border: 1px solid black;
     padding: 20px;
     margin-top: 20px;
+    padding-left: 20px;
   }
   
   .content {
@@ -186,20 +188,24 @@ body {
   
   .moovies {
     display: flex;
-    gap: 10px;
+    gap: 30px;
     flex-direction: row;
-    overflow-x: auto;
     padding-bottom: 10px;
     margin-left: 0;
   }
+
+  .moovies:hover {
+    overflow-x: auto;
+  }
   
   .moovie {
-    flex: 0 0 auto;
-    min-width: 30%;
+    flex: 0 0 auto; 
+    min-width: 30.5%;
     border: 1px solid black;
     text-align: start;
     padding: 10px;
-    padding-left: 0;
+    aspect-ratio: 2/1;
+    align-content: center;
   }
   
   .moovie p {
@@ -208,6 +214,7 @@ body {
   
   .moovie h4 {
     margin-left: 12px;
+    font-size: 20px;
   }
   
   footer {
@@ -221,6 +228,7 @@ body {
     color: gray;
     padding: 10px;
     font-size: 12px;
+    padding-left: 0;
   }
   
   .f-text {
@@ -233,15 +241,14 @@ body {
   }
   
   .f-left {
-    width: 60%;
-    padding-left: 0;
+    width: 70%;
   }
-  
+
   .f-right {
-    width: 34%;
+    width: 30%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   
   .follow {
@@ -261,17 +268,19 @@ body {
     color: #ff0000;
   }
   
-  .social-ikons {
-    padding: 2px;
+  .social-ikons a {
+    padding: 0;
   }
-  
+
   .app-buttons img {
     width: 100px;
+    height: 33.4px;
   }
   
   .apps {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
   }
   
   .bottom-design {
